@@ -35,7 +35,6 @@ def jalan(z):
 		sys.stdout.flush()
 		time.sleep(0.07)
 		
-\033[1;38;40m ▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅๑۩FARHANXD۩๑▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅
 \033[1;39;40m ➣Author©  → Farhan Xd
 \033[1;40;40m ➣Github   → https://github.com/Farhanxd/haccker.py
 \033[1;41;40m ➣Youtube  → Farhan Xd
