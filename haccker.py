@@ -33,13 +33,14 @@ def jalan(z):
 	for e in z + '\n':
 		sys.stdout.write(e)
 		sys.stdout.flush()
-		time.sleep(0.02)
-\033[1;31;40m ▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅๑۩FARHANXD۩๑▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅
-\033[1;32;40m ➣Author©  → Farhan Xd
-\033[1;33;40m ➣Github   → https://github.com/Farhanxd/hacker.py
-\033[1;34;40m ➣Youtube  → Farhan Xd
-\033[1;35;40m ➣☏        → +92097
-\033[1;36;40m ▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅
+		time.sleep(0.07)
+		
+\033[1;38;40m ▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅๑۩FARHANXD۩๑▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅
+\033[1;39;40m ➣Author©  → Farhan Xd
+\033[1;40;40m ➣Github   → https://github.com/Farhanxd/haccker.py
+\033[1;41;40m ➣Youtube  → Farhan Xd
+\033[1;42:40m ➣☏        → +92097
+\033[1;43;40m ▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅
 '''
 
 def tik():
