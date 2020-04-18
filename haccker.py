@@ -6,29 +6,21 @@ import os,sys,time,datetime,random,hashlib,re,threading,json,urllib,cookielib,re
 from multiprocessing.pool import ThreadPool
 from requests.exceptions import ConnectionError
 from mechanize import Browser
-
-
 reload(sys)
 sys.setdefaultencoding('utf8')
 br = mechanize.Browser()
 br.set_handle_robots(False)
 br.set_handle_refresh(mechanize._http.HTTPRefreshProcessor(),max_time=1)
 br.addheaders = [('User-Agent', 'Opera/9.80 (Android; Opera Mini/32.0.2254/85. U; id) Presto/2.12.423 Version/12.16')]
-
-
 def keluar():
 	print "\x1b[1;91mExit"
 	os.sys.exit()
-
-
 def acak(b):
     w = 'ahtdzjc'
     d = ''
     for i in x:
         d += '!'+w[random.randint(0,len(w)-1)]+i
     return cetak(d)
-
-
 def cetak(b):
     w = 'ahtdzjc'
     for i in w:
@@ -37,38 +29,18 @@ def cetak(b):
     x += '\033[0m'
     x = x.replace('!0','\033[0m')
     sys.stdout.write(x+'\n')
-
-
 def jalan(z):
 	for e in z + '\n':
 		sys.stdout.write(e)
 		sys.stdout.flush()
-		time.sleep(0.07)
-
-
- 
-
+		time.sleep(0.02)
 \033[1;31;40m ▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅๑۩FARHANXD۩๑▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅
 \033[1;32;40m ➣Author©  → Farhan Xd
 \033[1;33;40m ➣Github   → https://github.com/Farhanxd/hacker.py
 \033[1;34;40m ➣Youtube  → Farhan Xd
-\033[1;35;40m ➣☏        → +92
+\033[1;35;40m ➣☏        → +92097
 \033[1;36;40m ▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅
-"""
-
-###### LOGO1 ######
-logo1 = """
-	\033[1;32;40m  
-
-
-		─────█─▄▀█──█▀▄─█─────
-		────▐▌──────────▐▌────
-		────█▌▀▄──▄▄──▄▀▐█────
-		───▐██──▀▀──▀▀──██▌───
-		──▄████▄──▐▌──▄████▄──
-
-  
-"""
+'''
 
 def tik():
 	titik = ['.   ','..  ','... ']
